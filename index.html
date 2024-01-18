@@ -1,0 +1,57 @@
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Plus+Jakarta+Sans/about?query=plus+ja">
+    <script src="script.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    
+  </head>
+  <body>
+    <script>
+      onclick="w3.hide('h2')"
+    </script>
+ 
+            
+    <div class="header">       
+      <h1>🎱 Magic 8 Ball Oracle</h1>
+      <p>Ask me anything 🌞</p>
+    </div>     
+     
+    <div class="searchform">
+      <form>
+        <input type="text" id="textinput" name="searchform"><br>
+      </form>  
+    </div>    
+    
+    <script>
+      $(function(){
+         $(".answare").hide()
+      });
+   </script>
+    
+    <button onclick="w3.toggleShow('.answare')">Ask!</button>     
+    
+    
+
+   <section class="dots-container">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </section>
+
+  
+    <div class="answare">
+      <p>Your answare goes here!</p>
+    </div>
+    
+    
+
+  </body>
+</html>
